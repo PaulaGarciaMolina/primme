@@ -2,7 +2,7 @@
 
 import numpy as np
 cimport numpy as np
-from scipy.sparse.linalg.interface import aslinearoperator
+from scipy.sparse.linalg import aslinearoperator
 cimport cython
 from cython cimport view
 try:
